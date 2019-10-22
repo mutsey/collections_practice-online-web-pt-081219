@@ -1,4 +1,4 @@
-[25, 7, 1]
+array_asc= [25, 7, 1]
 
     array.sort do |a, b|
   if a == b
