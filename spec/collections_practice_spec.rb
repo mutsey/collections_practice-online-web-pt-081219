@@ -6,7 +6,6 @@ describe 'collections practice' do
   describe '#sort_array_asc' do
     it 'should return an array sorted in ascending order' do
       expect(sort_array_asc([25, 7, 1])).to eq([1,7,25])
-      array.sort_array_asc 
     end
   end
 
