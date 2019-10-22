@@ -10,10 +10,17 @@ array_asc= [25, 7, 1]
   end
 end
     
-    end
-  end
 
- sort_array_desc=[25, 7, 14]).to eq([25, 14, 7])
+ sort_array_desc=[25, 7, 14]
+  array.sort do |a, b|
+  if b == a
+    0
+  elsif b < a
+    -1
+  elsif b > a
+    1
+  end
+end.to eq([25, 14, 7])
     end
   end
 
