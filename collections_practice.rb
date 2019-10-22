@@ -13,9 +13,7 @@ end
     end
   end
 
- array_desc' do
-    it 'should return an array sorted in descending order' do
-      expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
+ sort_array_desc=[25, 7, 14]).to eq([25, 14, 7])
     end
   end
 
